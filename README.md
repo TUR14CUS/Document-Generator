@@ -2,7 +2,14 @@
 
 This Python script utilizes the `docxtpl` module to generate customized Word documents (`.docx`) from a predefined template and data provided in a CSV file. In the provided example, the script is set up to generate letters to different hiring managers by combining user-specific information with fictitious data from a CSV file.
 
-### Prerequisites
+## Table of Contents
+1. [Prerequisites](#prerequisites)
+2. [Usage](#usage)
+3. [Customization](#customization)
+4. [Example Execution](#example-execution)
+5. [Notes](#notes)
+
+## Prerequisites
 
 Before running the script, make sure to install the following packages:
 
@@ -10,7 +17,7 @@ Before running the script, make sure to install the following packages:
 pip install pandas docxtpl
 ```
 
-### Usage
+## Usage
 
 1. **Run the Script:**
    - Execute the `document_generator.py` script.
@@ -28,7 +35,7 @@ pip install pandas docxtpl
    - Feel free to adapt the script for different templates, data sources, or document structures.
    - Enhance the script by adding command-line arguments or a user interface for more dynamic interactions.
 
-### Customization
+## Customization
 
 - **Template Modification:**
   - Adjust the `template-manager-info.docx` file to change the layout, formatting, or content of the generated documents.
@@ -39,15 +46,13 @@ pip install pandas docxtpl
 - **User Inputs:**
   - Enhance the script to accept user inputs for personalized information.
 
-### Example Execution
+## Example Execution
 
 ```bash
 python document_generator.py
 ```
 
-### Notes
+## Notes
 
 - Ensure that your environment has the required permissions to read and write files in the specified locations.
 - For security reasons, consider storing sensitive information such as email passwords in a secure manner, like environment variables.
-
-Feel free to explore and adapt this script based on your specific document generation needs!
